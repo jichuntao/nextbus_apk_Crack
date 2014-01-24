@@ -1,0 +1,25 @@
+mId 
+,
+type 
+,
+nextStation
+,
+nextStationNo
+,
+nextStationDistince
+,
+nextStationRunTimes
+,
+nextStationTime  //预报当前车辆到下一站点位置时的时间点。如果车辆已到站，则标识为“-1”
+,
+stationDistince
+,
+stationRunTimes
+,
+stationTime  // 到达目标站的时间
+,
+gpsupdateTime 
+,
+lon
+,
+lat

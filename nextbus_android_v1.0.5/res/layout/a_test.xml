@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <busline>
+        <shotname>
+null
+</shotname>
+        <linename>
+123
+</linename>
+        <distince>
+null
+</distince>
+        <ticket>
+null
+</ticket>
+        <totalPrice>
+null
+</totalPrice>
+        <time>
+null
+</time>
+        <type>
+0
+</type>
+        <coord>
+null
+</coord>
+    </busline>
+</root>

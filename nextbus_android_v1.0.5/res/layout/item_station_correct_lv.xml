@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_item_delete_follows_car" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
+        <ImageView android:id="@id/selectIv" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" />
+        <TextView android:id="@id/stationTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="安慧桥北" />
+    </LinearLayout>
+    <View android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_item_follows_car" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/lineLl" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/line" />
+        <TextView android:id="@id/lineTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/directionLl" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/lineLl">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/direction" />
+        <TextView android:id="@id/directionTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/stationLl" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/directionLl">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/station" />
+        <TextView android:id="@id/stationTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <ImageButton android:id="@id/followsIv" android:background="@drawable/ic_follows_press" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

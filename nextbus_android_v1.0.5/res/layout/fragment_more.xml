@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:id="@id/versionMsgLl" android:background="@drawable/bg_button_version_msg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textColor="@color/version_msg_indicator_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/version_msg" android:drawableLeft="@drawable/bg_ic_version_msg" />
+            <TextView android:textColor="@color/red" android:id="@id/newVersionTv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="NEW" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/aboutUsLl" android:background="@drawable/bg_button_version_msg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textColor="@color/version_msg_indicator_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_us" android:drawableLeft="@drawable/bg_ic_about_us" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

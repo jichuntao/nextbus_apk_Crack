@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/actionTitleLl" layout="@layout/actionbar_with_buttons" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/busDataTv" android:paddingLeft="10.0dip" android:text="@string/busCorrectMsg" style="@style/TextView.NotNetWork" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/busDataLl" android:background="@drawable/bg_item_follows_car_normal" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:text="@string/busId" style="@style/TextView.BusCorrectTitle" />
+                        <TextView android:id="@id/busIdTv" style="@style/TextView.BusData" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:text="@string/line" style="@style/TextView.BusCorrectTitle" />
+                        <TextView android:id="@id/lineTv" style="@style/TextView.BusData" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:text="@string/direction" style="@style/TextView.BusCorrectTitle" />
+                        <TextView android:id="@id/directionTv" style="@style/TextView.BusData" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:text="@string/nextStation" style="@style/TextView.BusCorrectTitle" />
+                        <TextView android:id="@id/nextStationTv" style="@style/TextView.BusData" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:text="@string/nextStationDistance" style="@style/TextView.BusCorrectTitle" />
+                        <TextView android:id="@id/distanceToNextStationTv" style="@style/TextView.BusData" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/busnCorrectSubTitleTv" android:paddingLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/errorCause" style="@style/TextView.NotNetWork" />
+                    <TextView android:textSize="@dimen/text_size_edit" android:gravity="center_vertical" android:id="@id/busErrorTypeTv" android:background="@drawable/bg_button_bus_correct_normal" android:paddingLeft="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/text_search_input_height" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:onClick="onClick" />
+                    <EditText android:textSize="@dimen/text_size_edit" android:gravity="top" android:id="@id/busErrorEt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:hint="@string/hint_text_input_station_error_type" android:maxLength="500" />
+                    <TextView android:textColor="@color/red" android:gravity="center_vertical" android:id="@id/promptTv" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/limit_input_text_length" />
+                    <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@id/thanksTv" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_thankfor_support" />
+                    <EditText android:textSize="@dimen/text_size_edit" android:id="@id/contactEt" android:layout_width="fill_parent" android:layout_height="@dimen/text_search_input_height" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/hint_text_input_qq_or_phone" android:singleLine="true" android:inputType="number" android:imeOptions="actionDone" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:visibility="invisible" android:text="@string/busCorrectMsg" style="@style/TextView.NotNetWork" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/bg_item_follows_car_normal" android:paddingLeft="15.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/busId" style="@style/TextView.BusCorrectTitle" />
+                    <TextView style="@style/TextView.BusData" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/line" style="@style/TextView.BusCorrectTitle" />
+                    <TextView style="@style/TextView.BusData" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/direction" style="@style/TextView.BusCorrectTitle" />
+                    <TextView style="@style/TextView.BusData" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/nextStation" style="@style/TextView.BusCorrectTitle" />
+                    <TextView style="@style/TextView.BusData" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/nextStationDistance" style="@style/TextView.BusCorrectTitle" />
+                    <TextView style="@style/TextView.BusData" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textColor="@color/black" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:visibility="invisible" android:layout_marginTop="10.0dip" android:text="@string/errorCause" style="@style/TextView.NotNetWork" />
+            <TextView android:textSize="@dimen/text_size_edit" android:gravity="center_vertical" android:background="@drawable/bg_button_bus_correct_normal" android:paddingLeft="20.0dip" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/text_search_input_height" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:onClick="onClick" />
+            <ListView android:id="@id/errorTypeLv" android:visibility="gone" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="20.0dip" android:divider="@null" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

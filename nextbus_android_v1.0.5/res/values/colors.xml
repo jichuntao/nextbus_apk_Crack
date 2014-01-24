@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="color_line">#ff0059a4</color>
+    <color name="light_blue">#ff91d1ff</color>
+    <color name="deep_blue">#ff1178ce</color>
+    <color name="dark">#ff2e2f32</color>
+    <color name="deep_dark">#ff222224</color>
+    <color name="gray">#ffb1b8be</color>
+    <color name="gray_road">#ffededed</color>
+    <color name="light_gray">#ffe6e6e6</color>
+    <color name="deep_gray">#ffe5e5e5</color>
+    <color name="red">#ffff0000</color>
+    <color name="listitem_divide">#ffd4d3d3</color>
+    <color name="background">#ffe6e6e6</color>
+    <color name="translate">#00000000</color>
+    <color name="harlf_transflate">#aa000000</color>
+    <color name="divider">#ffd3d5da</color>
+    <color name="half_traslate">#33000000</color>
+    <item type="color" name="tab_text_selected">@color/white</item>
+    <color name="tab_text_default">#ff9c9c9c</color>
+</resources>

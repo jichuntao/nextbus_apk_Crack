@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: nextbus_android_v1.0.5.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '5'
+  targetSdkVersion: '8'
+packageInfo:
+  cur_package: com.aibang.nextbus
+  orig_package: com.aibang.nextbus
+compressionType: false

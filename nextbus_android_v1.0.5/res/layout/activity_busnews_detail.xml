@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:droidfu="http://github.com/droidfu/schema">
+    <include android:id="@id/actionTitleLl" layout="@layout/actionbar_with_buttons" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/loadingLl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progress_bar1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+        <TextView android:textColor="@color/dark" android:id="@id/progress_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0sp" android:text="加载中..." />
+    </LinearLayout>
+    <ScrollView android:id="@id/busnewsScrollView" android:padding="7.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textColor="@color/black" android:id="@id/busnewsTitleTv" style="@style/BusnewsText" />
+            <TextView android:textSize="@dimen/text_size_fourteen" android:textColor="@color/gray" android:id="@id/busnewsDateAndFromTv" android:layout_marginTop="0.0dip" style="@style/BusnewsText" />
+            <com.aibang.common.widget.WebImageView android:layout_gravity="center_horizontal" android:id="@id/busnewsWebIv" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:onClick="onLoadBigImage" droidfu:errorDrawable="@drawable/ic_pic_loading_fail" droidfu:progressDrawable="@drawable/ic_pic_normal" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff595959" android:id="@id/busnewsContentTv" android:layout_marginTop="14.0dip" android:lineSpacingExtra="7.0dip" style="@style/BusnewsText" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

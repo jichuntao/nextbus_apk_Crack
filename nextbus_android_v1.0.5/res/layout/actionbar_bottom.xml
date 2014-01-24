@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mainRadioGroup" android:background="@drawable/bg_tab" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:paddingRight="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/tab_realdata_search" android:text="@string/real_data_search" android:drawableTop="@drawable/bg_radiobutton_realdata_search" style="@style/RadioButton.Tab" />
+        <RadioButton android:id="@id/tab_bus_prompt" android:text="@string/bus_prompt" android:drawableTop="@drawable/bg_radiobutton_bus_prompt" style="@style/RadioButton.Tab" />
+        <RadioButton android:id="@id/tab_collect_station" android:text="@string/collect_station" android:drawableTop="@drawable/bg_radiobutton_collect_station" style="@style/RadioButton.Tab" />
+        <RadioButton android:id="@id/tab_transfer_search" android:text="@string/transfer_search" android:drawableTop="@drawable/bg_radiobutton_transfer_search" style="@style/RadioButton.Tab" />
+        <RadioButton android:id="@id/tab_more" android:text="@string/more" android:drawableTop="@drawable/bg_radiobutton_more" style="@style/RadioButton.Tab" />
+    </RadioGroup>
+    <LinearLayout android:orientation="horizontal" android:id="@id/busNewsUpdatePromptLl" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
+        <View android:background="@drawable/bg_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <RelativeLayout android:background="@drawable/bg_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/unreaded" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/red_point" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <View android:background="@drawable/bg_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@drawable/bg_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <RelativeLayout android:background="@drawable/bg_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/newVersion" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/red_point" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

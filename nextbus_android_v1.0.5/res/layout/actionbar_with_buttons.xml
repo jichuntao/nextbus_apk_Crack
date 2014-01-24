@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/actionbar" style="@style/ActionBarOriginal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/btn_left" android:visibility="visible" android:layout_width="@dimen/action_bar_btn_width" android:layout_height="wrap_content" android:src="@drawable/ic_subway_normal" style="@style/ActionImageButton" />
+    <TextView android:gravity="center" android:id="@id/actionbar_title" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" android:layout_weight="1.0" style="@style/TextView.Title" />
+    <ImageButton android:id="@id/btn_right" android:visibility="visible" android:layout_width="@dimen/action_bar_btn_width" android:layout_height="wrap_content" android:src="@drawable/ic_feedback" style="@style/ActionImageButton" />
+</LinearLayout>

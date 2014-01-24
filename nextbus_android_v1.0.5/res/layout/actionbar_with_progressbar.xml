@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/actionbar" style="@style/ActionBarOriginal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/btn_left" android:visibility="visible" android:layout_width="@dimen/action_bar_btn_width" android:layout_height="wrap_content" android:src="@drawable/ic_subway_normal" style="@style/ActionImageButton" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/actionbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="实时查询" android:singleLine="true" android:layout_centerInParent="true" style="@style/TextView.Title" />
+        <ProgressBar android:id="@id/actionbar_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:indeterminate="true" android:layout_toRightOf="@id/actionbar_title" android:layout_centerVertical="true" style="?android:attr/android:progressBarStyleSmall" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/btn_right" android:visibility="visible" android:layout_width="@dimen/action_bar_btn_width" android:layout_height="wrap_content" android:src="@drawable/ic_feedback" style="@style/ActionImageButton" />
+</LinearLayout>

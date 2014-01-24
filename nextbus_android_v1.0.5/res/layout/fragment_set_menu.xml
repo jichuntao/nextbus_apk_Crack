@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/setMenuLl" android:background="@color/dark" android:layout_width="150.0dip" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/busNewsRl" style="@style/SetMenuItemRl">
+            <ImageView android:id="@id/busNewsIv" android:background="@drawable/bg_ic_more_menu_bus_news" android:onClick="onBusNewsClick" style="@style/MoreMenuImageView" />
+            <View style="@style/SetMenuItemLine" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/aboutUsRl" style="@style/SetMenuItemRl">
+            <ImageView android:id="@id/aboutUsIv" android:background="@drawable/bg_ic_more_menu_about_us" android:onClick="onAboutUsClick" style="@style/MoreMenuImageView" />
+            <View style="@style/SetMenuItemLine" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/versionRl" style="@style/SetMenuItemRl">
+            <ImageView android:id="@id/versionIv" android:background="@drawable/bg_ic_more_menu_version" android:onClick="onVersionMsgClick" style="@style/MoreMenuImageView" />
+            <View style="@style/SetMenuItemLine" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

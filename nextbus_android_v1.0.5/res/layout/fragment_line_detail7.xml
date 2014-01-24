@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/LineDetailWrapper"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:nextbus="http://schemas.android.com/apk/res/com.aibang.nextbus">
+    <FrameLayout android:id="@id/root1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.aibang.nextbus.widgets.linedetailviewpanel.BuildingView android:id="@id/building_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.aibang.nextbus.widgets.MyHorizontalScrollView android:id="@id/horizon" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/line_detail_view_panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.aibang.nextbus.widgets.linedetailviewpanel.LineDetailViewPanel android:id="@id/line_detail_mid" android:layout_width="wrap_content" android:layout_height="wrap_content" nextbus:type="7" />
+            </LinearLayout>
+        </com.aibang.nextbus.widgets.MyHorizontalScrollView>
+    </FrameLayout>
+</LinearLayout>

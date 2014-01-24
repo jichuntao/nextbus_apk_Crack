@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/actionTitleLl" layout="@layout/actionbar_with_buttons" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/appMsgTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="        北京实时公交是一款基于智能手机的免费实时公交信息查询软件，本软件通过对公交车的精确定位，结合道路实时拥堵状况，精确计算出车辆到站距离与到站时间，目前提供多条示范线路的到站距离、到站时间查询。欢迎您使用体验，并提出宝贵建议。 " />
+            <TextView android:id="@id/copyrightTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="        温馨提示：\n        由于公交线路、站点调整比较频繁，可能会出现个别站点与实际不一致的情况，您可通过本软件将问题反馈我们，我们会尽快更新线路信息，为您提供更准确的信息服务。本服务通过移动互联网络进行发布，如果移动网络不稳定会使数据接收延迟或者中断，可能会对您使用本软件带来不便。" />
+            <TextView android:id="@id/supportTv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="开发支持：爱帮聚信（北京）信息技术有限公司" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+{
+    "name": "nextbus_apk_crack",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "xmlreader": "*",
+        "sqlite3": "*"
+    }
+}

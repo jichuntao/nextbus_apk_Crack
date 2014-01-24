@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarOriginal">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_action_bar</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_height</item>
+    </style>
+    <style name="TextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="TextView.Title" parent="@style/TextView">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextView.QueryCondiation" parent="@style/TextView">
+        <item name="android:drawableRight">@drawable/ic_triangle</item>
+        <item name="android:drawablePadding">10.0dip</item>
+    </style>
+    <style name="TextView.NotNetWork" parent="@style/TextView">
+        <item name="android:textSize">@dimen/text_size_edit</item>
+        <item name="android:background">@drawable/ic_bg_net_error</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/text_welcome_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextView.BusData" parent="@style/TextView">
+        <item name="android:textSize">@dimen/text_size_sub_title</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextView.BusCorrectTitle" parent="@style/TextView">
+        <item name="android:textSize">@dimen/text_size_sub_title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Light" />
+    <style name="AppTheme" parent="@*android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ActionBar">
+        <item name="android:background">@drawable/bg_action_bar</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_height</item>
+    </style>
+    <style name="ActionButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/bg_button_action</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+    <style name="RealDataSearchImageButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Button">
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Button.ActionBar" parent="@style/Button">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/bg_button_action</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+    </style>
+    <style name="ActionText">
+        <item name="android:textSize">@dimen/text_size_action_title</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="SubTitleText">
+        <item name="android:textSize">@dimen/text_size_sub_title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="SetMenuText">
+        <item name="android:textSize">@dimen/text_size_action_title</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="BusnewsText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SearchInputActv">
+        <item name="android:textSize">@dimen/text_size_fourteen</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/bg_edittext_select_line</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="SelectImageButton">
+        <item name="android:background">@drawable/bg_button_select</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="ActionImageButton">
+        <item name="android:background">@drawable/bg_image_button_action</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="MoreMenuImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="SetMenuItemLine">
+        <item name="android:background">@color/deep_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="SetMenuItemRl">
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">120.0dip</item>
+    </style>
+    <style name="RealDataSearchSelectRl">
+        <item name="android:padding">6.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Panel" />
+    <style name="Panel.QueryCondation" parent="@style/Panel">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_item_select_line</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+    <style name="Animations" />
+    <style name="Animations.GrowFromBottom" parent="@style/Animations">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+    <style name="Animations.GrowFromTop" parent="@style/Animations">
+        <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+    <style name="Animations.PopDownMenu" parent="@style/Animations">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="RadioButton" />
+    <style name="RadioButton.Tab" parent="@style/RadioButton">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/tab_indicator_text</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bg_tab_item</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">2.0dip</item>
+        <item name="android:layout_marginRight">2.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="LineDetailWrapper" />
+    <style name="Progress" />
+    <style name="Progress.Download" parent="@*android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+    </style>
+</resources>

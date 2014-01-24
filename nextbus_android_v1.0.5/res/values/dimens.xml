@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_search">20.0sp</dimen>
+    <dimen name="text_size_action_title">18.0sp</dimen>
+    <dimen name="text_size_sub_title">16.0sp</dimen>
+    <dimen name="text_size_edit">15.0sp</dimen>
+    <dimen name="text_size_fourteen">14.0sp</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="title_height">50.0dip</dimen>
+    <dimen name="text_search_input_height">50.0dip</dimen>
+    <dimen name="text_welcome_height">40.0dip</dimen>
+    <dimen name="action_bar_btn_width">78.0dip</dimen>
+    <dimen name="unit_height">170.0dip</dimen>
+    <dimen name="build_top_to_eboard_3">43.0dip</dimen>
+    <dimen name="red_narrow_top_to_building_3">22.0dip</dimen>
+    <dimen name="build_top_to_eboard_5">60.0dip</dimen>
+    <dimen name="red_narrow_top_to_building_5">32.0dip</dimen>
+    <dimen name="build_top_to_eboard_7">74.0dip</dimen>
+    <dimen name="red_narrow_top_to_building_7">37.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_action_title" android:gravity="center_vertical" android:id="@id/deleteSingleTv" android:background="@drawable/bg_item_delete_follows_car" android:paddingLeft="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:text="@string/delete_single" />
+    <View android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="@dimen/text_size_action_title" android:gravity="center_vertical" android:id="@id/busnewsDateTv" android:background="@drawable/bg_item_delete_follows_car" android:paddingLeft="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:text="@string/delete_all" />
+</LinearLayout>

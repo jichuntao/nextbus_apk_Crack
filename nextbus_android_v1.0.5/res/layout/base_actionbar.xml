@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_action_bar_image_detail" android:layout_width="fill_parent" android:layout_height="@dimen/title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/actionLeftBtn" android:layout_marginLeft="10.0dip" android:text="@string/close" android:layout_alignParentLeft="true" style="@style/ActionButton" />
+    <TextView android:id="@id/actionTitleTv" style="@style/ActionText" />
+    <Button android:id="@id/actionRightBtn" android:layout_marginRight="10.0dip" android:text="@string/save" android:layout_alignParentRight="true" style="@style/ActionButton" />
+    <View android:background="@drawable/line_action_bar_devide" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

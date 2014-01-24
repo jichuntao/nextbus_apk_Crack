@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/left_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_left_arrow" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/right_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/right_indicator" android:layout_toRightOf="@id/left_indicator">
+            <TextView android:textSize="18.0dip" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/hint1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="bbbbbbbbb" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/gray" android:layout_gravity="center_vertical" android:id="@id/hint2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_centerInParent="true">
+            <Button android:id="@id/left_btn" android:background="@null" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="" android:layout_weight="1.0" />
+            <Button android:id="@id/right_btn" android:background="@null" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

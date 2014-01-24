@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:nextbus="http://schemas.android.com/apk/res/com.aibang.nextbus">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/running_panel" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/red" android:gravity="center" android:id="@id/zhan_num" android:background="@drawable/ic_bg_ebusboard_which_station" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="--" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="13.0sp" android:gravity="center" android:id="@id/zhan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="站" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/red" android:gravity="center" android:id="@id/gongli_num" android:background="@drawable/ic_bg_ebusboard_which_station" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="--" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="13.0sp" android:gravity="center" android:id="@id/gongli" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="公里" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/red" android:gravity="center" android:id="@id/time" android:background="@drawable/ic_bg_ebusboard_which_station" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="--" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="13.0sp" android:gravity="center" android:id="@id/daoda" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="到" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/arrived_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.aibang.nextbus.widgets.MyTextView android:textColor="@color/red" android:ellipsize="marquee" android:gravity="center" android:id="@id/text" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="车辆到站，请抓紧时间上车" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

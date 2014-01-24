@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/Rl" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/actionbar_with_buttons" />
+    <FrameLayout android:id="@id/actionbarBottomFl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/actionbar_bottom" />
+    </FrameLayout>
+    <com.aibang.nextbus.widgets.MyViewPager android:id="@id/centrePager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/actionbarBottomFl" android:layout_below="@id/actionbar" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:nextbus="http://schemas.android.com/apk/res/com.aibang.nextbus">
+    <include layout="@layout/actionbar_with_progressbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:id="@id/net_error_prompt" android:background="@color/gray" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/net_error_prompt" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ebusboard_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/ebusboard" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/line_detail_container" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
